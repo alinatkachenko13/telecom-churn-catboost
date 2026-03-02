@@ -52,13 +52,18 @@ Recommendations:
 - Use two threshold strategies: "low-cost retention" vs "high-cost retention."
 
 ## Stack
-Python, pandas, numpy, scikit-learn, CatBoost, LightGBM, matplotlib, seaborn, phik, SHAP.
+- Python
+- pandas, numpy
+- scikit-learn
+- CatBoost, LightGBM
+- matplotlib, seaborn
+- phik, shap
 
 ## How to run
 1. Open `telecom_churn_catboost.ipynb` in Jupyter/VS Code.
-2. Install dependencies (example):
+2. Install dependencies:
    ```bash
-   pip install -U pandas numpy scikit-learn catboost lightgbm matplotlib seaborn phik shap
+   pip install -r requirements.txt
    ```
 3. Run the notebook top-to-bottom.
 
